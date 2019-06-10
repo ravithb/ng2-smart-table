@@ -10,6 +10,10 @@ export const routes: Routes = [
     loadChildren: './demo/demo.module#DemoModule',
   },
   {
+    path: 'pre-select',
+    loadChildren: './examples/various/basic-example-multi-select.component',
+  },
+  {
     path: 'documentation',
     loadChildren: './documentation/documentation.module#DocumentationModule',
   },

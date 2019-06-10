@@ -24,6 +24,7 @@ import { ServerExamplesComponent } from './server/server-examples.component';
 import { CustomViewEditExamplesComponent } from './custom-edit-view/custom-edit-view-examples.component';
 import { BasicExampleCustomActionsComponent } from './custom-edit-view/basic-example-custom-actions.component';
 import { VariousExamplesComponent } from './various/various-examples.component';
+import { BasicExamplePreSelectDataComponent } from './various/basic-example-preselect-rows.component'
 
 import {
   BasicExampleButtonViewComponent,
@@ -49,6 +50,7 @@ const EXAMPLES_COMPONENTS = [
   BasicExampleButtonViewComponent,
   BasicExampleCustomActionsComponent,
   ButtonViewComponent,
+  BasicExamplePreSelectDataComponent
 ];
 
 @NgModule({

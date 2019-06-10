@@ -7,7 +7,7 @@ import { PreSelectCriteria } from 'ng2-smart-table/lib/data-set/pre-select-crite
     <ng2-smart-table [settings]="settings" [source]="data" [preSelectCriteria]="preSelectCriteria"></ng2-smart-table>
   `,
 })
-export class BasicExampleDataComponent {
+export class BasicExamplePreSelectDataComponent {
 
   preSelectCriteria: PreSelectCriteria = {
     field: 'id',
@@ -38,18 +38,21 @@ export class BasicExampleDataComponent {
       name: 'Leanne Graham',
       username: 'Bret',
       email: 'Sincere@april.biz',
+      IS_ROW_SELECTED: false
     },
     {
       id: 2,
       name: 'Ervin Howell',
       username: 'Antonette',
       email: 'Shanna@melissa.tv',
+      IS_ROW_SELECTED: true
     },
     {
       id: 3,
       name: 'Clementine Bauch',
       username: 'Samantha',
       email: 'Nathan@yesenia.net',
+      IS_ROW_SELECTED: true
     },
     {
       id: 4,
@@ -62,6 +65,7 @@ export class BasicExampleDataComponent {
       name: 'Chelsey Dietrich',
       username: 'Kamren',
       email: 'Lucio_Hettinger@annie.ca',
+      IS_ROW_SELECTED: true
     },
     {
       id: 6,
@@ -92,6 +96,7 @@ export class BasicExampleDataComponent {
       name: 'Clementina DuBuque',
       username: 'Moriah.Stanton',
       email: 'Rey.Padberg@karina.biz',
+      IS_ROW_SELECTED: true
     },
     {
       id: 11,
